@@ -1,0 +1,9 @@
+C:\Users\AlexRodri\RiderProjects\Lab14Alexander\Lab14Alexander\bin\Release\net9.0\publish\Lab14Alexander.exe
+C:\Users\AlexRodri\RiderProjects\Lab14Alexander\Lab14Alexander\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Users\AlexRodri\RiderProjects\Lab14Alexander\Lab14Alexander\bin\Release\net9.0\publish\appsettings.json
+C:\Users\AlexRodri\RiderProjects\Lab14Alexander\Lab14Alexander\bin\Release\net9.0\publish\Lab14Alexander.dll
+C:\Users\AlexRodri\RiderProjects\Lab14Alexander\Lab14Alexander\bin\Release\net9.0\publish\Lab14Alexander.deps.json
+C:\Users\AlexRodri\RiderProjects\Lab14Alexander\Lab14Alexander\bin\Release\net9.0\publish\Lab14Alexander.runtimeconfig.json
+C:\Users\AlexRodri\RiderProjects\Lab14Alexander\Lab14Alexander\bin\Release\net9.0\publish\Lab14Alexander.pdb
+C:\Users\AlexRodri\RiderProjects\Lab14Alexander\Lab14Alexander\bin\Release\net9.0\publish\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\AlexRodri\RiderProjects\Lab14Alexander\Lab14Alexander\bin\Release\net9.0\publish\Microsoft.OpenApi.dll
