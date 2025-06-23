@@ -11,7 +11,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-
+// Trigger GitHub Actions
 app.UseHttpsRedirection();
 
 var summaries = new[]
