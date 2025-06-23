@@ -1,0 +1,32 @@
+name: Build and Deploy .NET 9 Application
+
+on:
+  push:
+    branches:
+      - main # O cambia a tu rama principal si es diferente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up .NET 9
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '9.0.x'
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build application
+      run: dotnet build --configuration Release
+
+    - name: Publish application
+      run: dotnet publish --configuration Release --output ./published
+
+    # Este paso es opcional. Elimina o ajusta si no usarás scp.
+    - name: (Opcional) Deploy to server
+      run: echo "Aquí va tu comando scp si tienes un servidor remoto."
