@@ -3,7 +3,7 @@ name: Build and Deploy .NET 9 Application
 on:
   push:
     branches:
-      - main # O cambia a tu rama principal si es diferente
+      - master
 
 jobs:
   build:
